@@ -19,11 +19,13 @@
 
 <style>
 footer{
-    height: 48px;
+        height: 48px;
     display: flex;
     align-items: center;
-    margin: 0 72px;
     font-size: 16px;
+    background-color: var(--dark);
+    color: white;
+    padding: 0 72px;
 }
 
 footer > *{

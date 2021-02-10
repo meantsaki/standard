@@ -52,4 +52,6 @@ export default {
   --dark:#000000;
   --blue:#4B00FF;
 }
+
+.clear { clear: both;}
 </style>

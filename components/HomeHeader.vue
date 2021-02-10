@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar class="flex-container" :clipped-left="clipped" fixed app>
+    <v-app-bar class="flex-container" fixed app>
         <div class="logo">
 
         </div>
@@ -24,6 +24,9 @@
 
 <style>
 
+.v-application header .logo{
+    color: white;
+}
 .v-application header a{
     color: var(--white);
     text-transform: capitalize;

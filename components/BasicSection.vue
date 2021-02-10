@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="clear">
     <slot/>
   </section>
 </template>
@@ -12,8 +12,8 @@ export default {
 
 <style scoped>
 section{
-    height:100vh;
-    width:100vw;
+    min-height:100vh;
+    width:100%;
     background-color: var(--white);
 }
 </style>
